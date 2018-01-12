@@ -1,6 +1,6 @@
 import { Argv } from "yargs";
 
-import { TestCommand } from "./test";
+import { TestCommand } from "./testCommand";
 
 export const registerCommands = (argv: Argv) => {
     argv.command(TestCommand)
